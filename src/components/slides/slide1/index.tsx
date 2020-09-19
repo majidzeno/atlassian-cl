@@ -37,7 +37,6 @@ const Slide1 = ({ active }) => {
 						to join
 					</span>
 					<ImageWrapper>
-						{/* <Image name="quoraLogo" /> */}
 						<Svg name="attlasian" fill="white" />
 					</ImageWrapper>
 				</Text>

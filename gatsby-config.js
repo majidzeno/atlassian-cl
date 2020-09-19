@@ -2,8 +2,8 @@
 
 module.exports = {
 	siteMetadata: {
-		title: `Quora Cover Letter`,
-		description: `A Motivation Letter to Quora team, expressing my dream job working there.`,
+		title: `Atlassian Cover Letter`,
+		description: `A Motivation Letter to Atlassian team, expressing my dream job working there.`,
 		author: `@majidzeno`,
 	},
 	plugins: [

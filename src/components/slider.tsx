@@ -279,7 +279,7 @@ const CLSlider = (props: any) => {
 			case 6:
 				return "$ git log ~ 3";
 			case 7:
-				return "$ git add quora";
+				return "$ git add atlassian";
 			default:
 				return null;
 		}

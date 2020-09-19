@@ -1,7 +1,7 @@
 {
 	"name": "gatsby-starter-default",
 	"private": true,
-	"description": "Cover Letter to Quora",
+	"description": "Cover Letter to Atlassian",
 	"version": "0.1.0",
 	"author": "Majid Eltayeb",
 	"dependencies": {
