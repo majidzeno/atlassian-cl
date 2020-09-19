@@ -31,7 +31,7 @@ const Slide1 = ({ active }) => {
 					<Image name="greenmobile" />
 				</ImageWrapper>
 				<Text>
-					Hello Atlasian team, This is
+					Hello Atlassian team, This is
 					<span>
 						Why I want <br />
 						to join
