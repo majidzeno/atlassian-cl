@@ -61,7 +61,7 @@ const Slide5 = ({ active }) => {
 						decided to quit, which wasn’t an easy decision back then, I’ve been
 						a fresh grad with almost no experience and decided to leave a
 						multinational company with a very good salary to join a startup and
-						follow my dreams .
+						follow my dreams.
 					</Text>
 					<Text ref={textRef2} style={{ color: "#fff" }}>
 						They say “Luck is what happens when opportunity meets preparation”,
