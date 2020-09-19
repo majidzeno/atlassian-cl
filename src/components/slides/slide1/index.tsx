@@ -10,7 +10,7 @@ import {
 	Text,
 	LogoFont,
 } from "./style";
-
+import Svg from "../../svg";
 const Slide1 = ({ active }) => {
 	const ref = React.useRef(true);
 	React.useEffect(() => {
@@ -31,13 +31,14 @@ const Slide1 = ({ active }) => {
 					<Image name="greenmobile" />
 				</ImageWrapper>
 				<Text>
-					Hello Quora team, This is
+					Hello Atlasian team, This is
 					<span>
 						Why I want <br />
 						to join
 					</span>
 					<ImageWrapper>
-						<Image name="quoraLogo" />
+						{/* <Image name="quoraLogo" /> */}
+						<Svg name="attlasian" fill="white" />
 					</ImageWrapper>
 				</Text>
 			</SlideMainContent>

@@ -94,7 +94,7 @@ const Slide8 = ({ active }) => {
 			<SlideMainContent>
 				<ImageWithCaption>
 					<div ref={captionRef}>
-						In 2020, my dream is to join quora as a
+						In 2020, my dream is to join Atlassian as a
 						<Bold>frontend engineer</Bold>, <Bold>why ?</Bold>
 						<Caption ref={hyperTextRef}>look at this triangle </Caption>
 					</div>
@@ -103,7 +103,7 @@ const Slide8 = ({ active }) => {
 					</ImageWrapper>
 				</ImageWithCaption>
 				<TextContainer>
-					<Text ref={textRef1}>
+					<Text ref={textRef1} style={{ color: "#fff" }}>
 						Some poeple know how to use the tools right so they
 						<span> create</span>, other people who have more skills make a
 						creation that <span> inspire </span> others to create, another
@@ -111,22 +111,22 @@ const Slide8 = ({ active }) => {
 						others to create , they create tools helping other people to create
 						awesome things.
 					</Text>
-					<Text ref={textRef2}>
+					<Text ref={textRef2} style={{ color: "#fff" }}>
 						I want to be one of the people who <span> empower </span>others,this
-						is the reason why i want to join <span> quora </span>, i use Quora
-						every almost daily since 2016, i saw how this product is growing and
-						i see some fixes that could enhance the app UX, and i really want to
-						be part of the team behind this huge experience.
+						is the reason why i want to join <span> Atlassian </span>, i use
+						Atlassian every almost daily since 2016, i saw how this product is
+						growing and i see some fixes that could enhance the app UX, and i
+						really want to be part of the team behind this huge experience.
 					</Text>
-					<Text ref={textRef3}>
+					<Text ref={textRef3} style={{ color: "#fff" }}>
 						I believe this mindset is not a one man show, it is teamwork , when
 						you find the right team, the right environment you shine and help
 						others to shine, this is the best thing about teamwork, it is
 						helping others and this will help you to grow. <br />I would like to
-						be part of quora team that shapes this culture everywhere.
+						be part of Atlassian team that shapes this culture everywhere.
 					</Text>
 					<div ref={textRef4}>
-						<Text>
+						<Text style={{ color: "#fff" }}>
 							In the end I hope that wasn’t too boring for you to read, anyway
 							thanks for reading, and i hope to hear from you so soon.
 						</Text>
@@ -135,18 +135,22 @@ const Slide8 = ({ active }) => {
 						</CommitContainer>
 					</div>
 					<Signature ref={signatureRef}>
-						<div>Sincerely,</div>
+						<div style={{ color: "#fff" }}>Sincerely,</div>
 						<Footer>
 							<ImageWithSignature>
 								<ImageWrapper>
 									<Image name="majidLogo" />
 								</ImageWrapper>
 								<Links>
-									<Name>Majid Eltayeb</Name>
+									<Name style={{ color: "#fff" }}>Majid Eltayeb</Name>
 									<Link>
-										<a href="https://majideltayeb.com/">majideltayeb.com</a>
+										<a
+											href="https://majideltayeb.com/"
+											style={{ color: "#fff" }}>
+											majideltayeb.com
+										</a>
 									</Link>
-									<div>majid.eltayeb@gmail.com</div>
+									<div style={{ color: "#fff" }}>majid.eltayeb@gmail.com</div>
 								</Links>
 							</ImageWithSignature>
 							<GetInTouch>

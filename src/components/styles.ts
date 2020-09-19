@@ -5,7 +5,8 @@ import Slider from "react-slick";
 
 const darkColor = "#0E1E25";
 const backgroundGradient =
-	"linear-gradient(102.81deg, rgba(0, 199, 183, 0) -4.75%, #DF6C68 73.05%), #A82824";
+	// "linear-gradient(102.81deg, rgba(0, 199, 183, 0) -4.75%, #DF6C68 73.05%), #A82824";
+	"linear-gradient(102.81deg,#00c7b700 -4.75%,#0052CC 73.05%),#172B4D";
 
 export const SliderWrapper = styled.div`
 	width: 100%;

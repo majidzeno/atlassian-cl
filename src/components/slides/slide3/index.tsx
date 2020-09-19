@@ -44,7 +44,7 @@ const Slide3 = ({ active }) => {
 							I’m <span>Majid</span>
 						</TextBold>
 						<Text>
-							Frontend developer based in <span>Giza,Egypt</span>
+							Frontend Engineer based in <span>Giza,Egypt</span>
 						</Text>
 						<TextSmall>
 							~ 30 mins Driving from <span>the great pyramids</span>

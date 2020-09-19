@@ -11,7 +11,7 @@ type ImageProps = {
 const Image = ({ name }: ImageProps) => {
 	const data = useStaticQuery(graphql`
 		query {
-			greenmobile: file(relativePath: { eq: "greenmobile.png" }) {
+			greenmobile: file(relativePath: { eq: "greenmobile2.png" }) {
 				childImageSharp {
 					fluid(maxWidth: 500) {
 						...GatsbyImageSharpFluid
@@ -39,7 +39,7 @@ const Image = ({ name }: ImageProps) => {
 					}
 				}
 			}
-			meInmobile: file(relativePath: { eq: "meInmobile2.png" }) {
+			meInmobile: file(relativePath: { eq: "meInmobile1.png" }) {
 				childImageSharp {
 					fluid(maxWidth: 500) {
 						...GatsbyImageSharpFluid
@@ -81,7 +81,7 @@ const Image = ({ name }: ImageProps) => {
 					}
 				}
 			}
-			triangle: file(relativePath: { eq: "triangle2.png" }) {
+			triangle: file(relativePath: { eq: "triangle.png" }) {
 				childImageSharp {
 					fluid(maxWidth: 1500) {
 						...GatsbyImageSharpFluid
